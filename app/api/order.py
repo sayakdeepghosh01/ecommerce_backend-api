@@ -23,3 +23,17 @@ async def create_order(order: Order):
     result = orders_collection.insert_one(order_data)
 
     return {"order_id": str(result.inserted_id)}
+
+
+# @router.get("/placed-orders", response_model = dict)
+# def placed_orders(
+    
+# ):
+#     response = {
+#     "data" : orders
+# }
+#     return response
+
+
+
+
