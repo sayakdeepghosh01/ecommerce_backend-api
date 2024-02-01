@@ -17,17 +17,17 @@ Welcome to the FastAPI E-commerce Backend project! This project demonstrates the
 ecommerce_backend-api/
 │
 ├── app/
-│   ├── __init__.py
+│   ├── __pycache__.py
 │   ├── main.py
 │   ├── models/
-│   │   ├── __init__.py
+│   │   ├── __pycache__.py
 │   │   ├── product.py
 │   │   └── order.py
 │   ├── database/
-│   │   ├── __init__.py
+│   │   ├── __pycache__.py
 │   │   └── mongo.py
 │   └── api/
-│       ├── __init__.py
+│       ├── __pycache__.py
 │       ├── product.py
 │       └── order.py
 │
@@ -44,20 +44,20 @@ ecommerce_backend-api/
 ## Project File Structure 📂
 
 ### app/
-- **__init__.py**: An empty file indicating that the directory should be treated as a Python package.
+- **__pycache__.py**: An empty file indicating that the directory should be treated as a Python package.
 - **main.py**: The main FastAPI application.
 
 ### models/
-- **__init__.py**: Empty file for package recognition.
+- **__pycache__.py**: Empty file for package recognition.
 - **product.py**: File defining the Product model.
 - **order.py**: File defining the Order model.
 
 ### database/
-- **__init__.py**: Empty file for package recognition.
+- **__pycache__.py**: Empty file for package recognition.
 - **mongo.py**: File containing MongoDB-related configurations and connection setup.
 
 ### api/
-- **__init__.py**: Empty file for package recognition.
+- **__pycache__.py**: Empty file for package recognition.
 - **product.py**: File containing API endpoints related to products.
 - **order.py**: File containing API endpoints related to orders.
 
