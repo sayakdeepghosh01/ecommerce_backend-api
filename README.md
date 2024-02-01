@@ -9,8 +9,7 @@ Welcome to the FastAPI E-commerce Backend project! This project demonstrates the
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Docker Deployment](#docker-deployment)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Structure 📁
 
