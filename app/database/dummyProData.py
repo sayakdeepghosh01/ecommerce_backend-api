@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
-# MongoDB connection details
-MONGO_URI = "mongodb+srv://sayak-0012:1234@sayakghosh.lhh4cof.mongodb.net/"
+
+MONGO_URI = "I remove my uri for security purpose"
 database_name = "ecommerce"
 collection_name = "products"
 
@@ -29,13 +29,12 @@ dummy_products = [
     {"id": "20", "name": "Smart Thermostat", "price": 80.0, "quantity": 15}
 ]
 
-# Connect to MongoDB
+# Connecting
 client = MongoClient(MONGO_URI)
 db = client[database_name]
 collection = db[collection_name]
 
-# Insert dummy products
+# Inserting
 collection.insert_many(dummy_products)
 
-# Close the MongoDB connection
 client.close()

@@ -1,4 +1,4 @@
-// static/scripts.js
+
 async function getProducts() {
     const response = await fetch('/products');
     const data = await response.json();
@@ -23,7 +23,4 @@ async function displayProducts() {
     });
 }
 
-// Add more JavaScript logic as needed...
-
-// Trigger the initial display of products
 displayProducts();

@@ -1,5 +1,5 @@
 # from pymongo import MongoClient
-#MONGODB_URI = "mongodb+srv://sayak-0012:1234@sayakghosh.lhh4cof.mongodb.net/"
+#MONGODB_URI = "I remove my uri for security purpose"
 # client = MongoClient(MONGODB_URI)
 # db = client["ecommerce"]
 # products_collection = db["products"]
@@ -9,7 +9,6 @@ from pymongo import MongoClient
 from motor.motor_asyncio import AsyncIOMotorClient
 from app.config import settings
 
-#MONGODB_URI = "mongodb+srv://sayak-0012:1234@sayakghosh.lhh4cof.mongodb.net/"
 
 client = MongoClient(settings.MONGODB_URI)
 database = client[settings.MONGODB_DB]

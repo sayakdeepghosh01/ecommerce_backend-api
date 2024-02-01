@@ -1,5 +1,3 @@
-# app/main.py
-
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -18,8 +16,8 @@ templates = Jinja2Templates(directory="templates")
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request, db: AsyncIOMotorDatabase = Depends(get_database)):
-    # Fetch products from the database
+    # Fetching products from the database
     products = await db[settings.PRODUCTS_COLLECTION].find().to_list(100)
 
-    # Pass the products to the HTML template
+    # Pass the products to the HTML templates
     return templates.TemplateResponse("index.html", {"request": request, "products": products})
