@@ -80,8 +80,8 @@ ecommerce_backend-api/
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/fastapi-ecommerce-backend.git
-    cd fastapi-ecommerce-backend
+    git clone https://github.com/sayakdeepghosh01/ecommerce_backend-api.git
+    cd ecommerce_backend-api
     ```
 
 2. **Install dependencies:**
@@ -95,7 +95,7 @@ ecommerce_backend-api/
 1. **Run the FastAPI application:**
 
     ```bash
-    uvicorn app.main:app --reload
+    uvicorn main:app --reload
     ```
 
 2. **Access the API documentation at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.**
@@ -146,14 +146,14 @@ ecommerce_backend-api/
 
 ## Screenshots
 
-### one.png
+### Products Database in MongoDB
 ![One](one.png)
 
-### two.png
+### Orders Database in MongoDB
 ![One](two.png)
 
-### three.png
+### Interface
 ![One](three.png)
 
-### four.png
+### VS code
 ![One](four.png)
