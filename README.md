@@ -14,7 +14,7 @@ Welcome to the FastAPI E-commerce Backend project! This project demonstrates the
 ## Project Structure 📁
 
 ```plaintext
-project_root/
+ecommerce_backend-api/
 │
 ├── app/
 │   ├── __init__.py
