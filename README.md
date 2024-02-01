@@ -143,3 +143,18 @@ project_root/
     ```
 
 - **Access the FastAPI application at [http://localhost:8000](http://localhost:8000).**
+
+
+## Screenshots
+
+### one.png
+![One](one.png)
+
+### two.png
+![One](two.png)
+
+### three.png
+![One](three.png)
+
+### four.png
+![One](four.png)
