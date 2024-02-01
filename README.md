@@ -139,7 +139,7 @@ project_root/
 - **Run the Docker container:**
 
     ```bash
-    docker run -p 8000:8000 fastapi-ecommerce-backend
+    docker run -p 8000:8000 fast-api-backend
     ```
 
 - **Access the FastAPI application at [http://localhost:8000](http://localhost:8000).**
