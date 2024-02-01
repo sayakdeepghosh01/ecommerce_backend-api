@@ -1,0 +1,37 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>E-commerce Application</h1>
+    </header>
+
+    <section id="product-section">
+        <h2>Products</h2>
+        <div id="filter-section">
+            <label for="min-price">Min Price:</label>
+            <input type="number" id="min-price" name="min-price">
+
+            <label for="max-price">Max Price:</label>
+            <input type="number" id="max-price" name="max-price">
+
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+        <div id="products-container"></div>
+    </section>
+
+    <section id="order-section">
+        <h2>Placed Orders</h2>
+        <div id="order-container"></div>
+        <button onclick="placeOrder()">Place Order</button>
+    </section>
+
+    <script src="{{ url_for('static', path='scripts.js') }}"></script>
+</body>
+</html>
